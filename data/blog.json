@@ -1,0 +1,22 @@
+{
+  "blog": [
+    {
+      "title": "An Important Announcement",
+      "date": "2022-08-22",
+      "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+      "img": "./public/images/blog/1.png"
+    },
+    {
+      "title": "Going places",
+      "date": "2022-08-10",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "img": "./public/images/blog/2.png"
+    },
+    {
+      "title": "Hello World",
+      "date": "2022-07-15",
+      "content": "This is my first blog post.",
+      "img": "./public/images/blog/3.png"
+    }
+  ]
+}

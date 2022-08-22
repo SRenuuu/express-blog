@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html>
+<%- include('./partials/header.ejs') %>
+
+  <body>
+    <%- include('./partials/hero-half.ejs') %>
+      <section id="blog" style="margin: 50px 0;">
+        <div class="container">
+          <div class="row">
+            <% blogData["blog"].forEach(item=> { %>
+              <div class="card-wrapper col-lg-4 col-6">
+                <div class="card">
+                  <img src="<%= item.img %>" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <%= item.title %>
+                    </h5>
+                    <p class="card-date">
+                      <%= item.date %>
+                    </p>
+                    <p class="card-text">
+                      <%= item.content %>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <% }); %>
+          </div>
+        </div>
+      </section>
+      <%- include('./partials/footer.ejs') %>
+  </body>
+
+</html>
