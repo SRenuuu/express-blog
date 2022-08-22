@@ -16,4 +16,4 @@ To run the server:
 npm start
 ```
 
-The server will run in [localhost](http://localhost:5000/) at port 5000.
+The server will run in [localhost](http://localhost:3000/) at port 3000.
